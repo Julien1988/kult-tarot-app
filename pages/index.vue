@@ -1,7 +1,7 @@
 <script lang="ts" setup>
 import { useUtils } from "../composables/utils";
 
-const { pending, data: data } = useLazyFetch("/api/tarot");
+const { pending, data: data } = useFetch("/api/tarot");
 
 const isClick = ref(false);
 const cartTitle = ref("");
@@ -28,7 +28,7 @@ const takeCart = async () => {
 
 <template>
   <div
-    class="min-h-screen flex flex-auto items-center flex-wrap justify-center"
+    class="min-h-screen flex flex-auto items-center flex-wrap justify-center pt-6 pb-6"
   >
     <div
       v-if="!isClick"
