@@ -1,0 +1,4 @@
+class Tarot {
+    constructor() {
+    }
+}
