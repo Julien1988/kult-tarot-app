@@ -1,7 +1,9 @@
 <script lang="ts" setup>
 import { useUtils } from "../composables/utils";
 
-const { pending, data: data } = useFetch("/api/tarot");
+const { pending, data: data } = await useLazyFetch("/api/tarot", {
+  server: false,
+});
 
 const isClick = ref(false);
 const cartTitle = ref("");
@@ -34,7 +36,14 @@ const takeCart = async () => {
       v-if="!isClick"
       class="min-h-screen flex items-center flex-wrap content-center justify-center"
     >
-      <div class="pt-2 pb-2">
+      <div
+        v-if="pending"
+        class="text-red-800 text-4xl hover:text-red-900 pt-2 pb-2 text-center animate-pulse"
+      >
+        Un instant, je termine un sacrifice...
+      </div>
+
+      <div v-else class="pt-2 pb-2">
         <button
           @click="takeCart"
           class="text-red-800 text-4xl hover:text-red-900"
