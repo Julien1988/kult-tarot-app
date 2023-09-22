@@ -23,6 +23,8 @@ const takeCart = async () => {
   const matches = cartText.value[1].match(regex);
   if (matches) {
     phrases.value = matches;
+    // petit hack pour afficher correctement créature sans refaire tout le regex ^^
+    phrases.value[4] = phrases.value[4].replace("ature:", "Créature:");
     console.log(phrases.value);
   }
 };
@@ -65,11 +67,11 @@ const takeCart = async () => {
       class="p-12 min-h-screen flex flex-auto items-center flex-wrap justify-center text-white text-2xl"
       v-else
     >
-      <div>
-        <h2>
+      <div class="flex flex-wrap flex-col">
+        <h2 class="text-red-800 font-bold">
           {{ cartTitle }}
         </h2>
-        <h3 class="pt-6 pb-6">{{ cartText[0] }}</h3>
+        <h3 class="pt-6 pb-6 italic">{{ cartText[0] }}</h3>
         <ul>
           <li class="pt-4" v-for="phrase in phrases">
             {{ phrase }}
@@ -77,7 +79,7 @@ const takeCart = async () => {
         </ul>
         <button
           @click="takeCart"
-          class="text-red-800 text-2xl hover:text-red-900 pt-12"
+          class="text-red-800 text-3xl hover:text-red-900 pt-12 animate-pulse"
         >
           Tirez moi encore les cartes
         </button>
