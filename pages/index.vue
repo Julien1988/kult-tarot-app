@@ -60,6 +60,11 @@ const takeCart = async () => {
 </script>
 
 <template>
+  <nav class="p-4">
+    <NuxtLink to="/about" class="text-slate-800 animate-pulse text-[0.5em]"
+      >Voir de l'autre côté du voile</NuxtLink
+    >
+  </nav>
   <div
     v-if="!isTimeToDie"
     class="min-h-screen flex flex-auto items-center flex-wrap justify-center pt-6 pb-6"
