@@ -9,15 +9,44 @@ const isClick = ref(false);
 const cartTitle = ref("");
 const cartText = ref("");
 const phrases = ref([]);
+const isTimeToDie = ref(false);
+const messageOfDeath = ref("");
+const notThisTime = ref(false);
+
+const message = "Je viendrais vous chercher dans 7 jours...";
+const messageArray = message.split("");
+let finalMessage = "";
+let currentIndex = 0;
+
+const typeWriter = () => {
+  if (currentIndex < messageArray.length) {
+    finalMessage += messageArray[currentIndex];
+    currentIndex++;
+    messageOfDeath.value = finalMessage;
+    const randmonNumberToDie: number = useUtils(200);
+    setTimeout(typeWriter, randmonNumberToDie);
+  }
+  notThisTime.value = true;
+};
 
 const takeCart = async () => {
+  console.log(notThisTime.value);
   if (!data.value) {
     return;
   }
   isClick.value = true;
+  const randomNumberToDie: number = useUtils(66);
+  if (randomNumberToDie === 1 && notThisTime.value === false) {
+    isTimeToDie.value = true;
+    typeWriter();
+    exit;
+  }
+  notThisTime.value = false;
+
+  isTimeToDie.value = false;
   const cartTotal: number = Object.keys(data.value).length;
-  const randmonNumber: number = useUtils(cartTotal);
-  cartTitle.value = Object.keys(data.value)[randmonNumber];
+  const randomNumber: number = useUtils(cartTotal);
+  cartTitle.value = Object.keys(data.value)[randomNumber];
   cartText.value = data.value[cartTitle.value];
   const regex = /(\w+:\s[^.]+\.)/g;
   const matches = cartText.value[1].match(regex);
@@ -32,6 +61,7 @@ const takeCart = async () => {
 
 <template>
   <div
+    v-if="!isTimeToDie"
     class="min-h-screen flex flex-auto items-center flex-wrap justify-center pt-6 pb-6"
   >
     <div
@@ -85,6 +115,23 @@ const takeCart = async () => {
         </button>
       </div>
     </div>
+  </div>
+  <div
+    v-else
+    class="min-h-screen flex flex-auto items-center flex-wrap justify-center pt-6 pb-6"
+  >
+    <h2
+      class="text-red-800 text-6xl hover:text-red-900 p-10 animate-pulse text-center"
+    >
+      {{ messageOfDeath }}
+    </h2>
+
+    <button
+      class="text-red-800 text-3xl hover:text-red-900 p-10 animate-pulse text-center"
+      @click="takeCart"
+    >
+      J'accepte de servir de sacrifice
+    </button>
   </div>
 </template>
 
