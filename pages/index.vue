@@ -12,6 +12,7 @@ const phrases = ref([]);
 const isTimeToDie = ref(false);
 const messageOfDeath = ref("");
 const notThisTime = ref(false);
+const textToShowFront = ref("");
 
 const message = "Je viendrais vous chercher dans 7 jours...";
 const messageArray = message.split("");
@@ -48,14 +49,14 @@ const takeCart = async () => {
   const randomNumber: number = useUtils(cartTotal);
   cartTitle.value = Object.keys(data.value)[randomNumber];
   cartText.value = data.value[cartTitle.value];
-  const regex = /(\w+:\s[^.]+\.)/g;
-  const matches = cartText.value[1].match(regex);
-  if (matches) {
-    phrases.value = matches;
-    // petit hack pour afficher correctement créature sans refaire tout le regex ^^
-    phrases.value[4] = phrases.value[4].replace("ature:", "Créature:");
-    console.log(phrases.value);
-  }
+
+  phrases.value = cartText.value[1].split(": ");
+  const textToShow: array = [];
+  phrases.value.forEach((e) => {
+    e.split(".").pop();
+    textToShow.push(e);
+  });
+  textToShowFront.value = textToShow;
 };
 </script>
 
@@ -108,8 +109,26 @@ const takeCart = async () => {
         </h2>
         <h3 class="pt-6 pb-6 italic">{{ cartText[0] }}</h3>
         <ul>
-          <li class="pt-4" v-for="phrase in phrases">
-            {{ phrase }}
+          <li class="pt-4" v-for="(phrase, index) in textToShowFront">
+            <p v-if="index === 0"></p>
+            <p v-if="index === 1">
+              <span class="font-bold">Individu : </span> {{ phrase }}
+            </p>
+            <p v-if="index === 2">
+              <span class="font-bold">Lieu : </span> {{ phrase }}
+            </p>
+            <p v-if="index === 3">
+              <span class="font-bold">Organisation : </span> {{ phrase }}
+            </p>
+            <p v-if="index === 4">
+              <span class="font-bold">Situation : </span> {{ phrase }}
+            </p>
+            <p v-if="index === 5">
+              <span class="font-bold">Créature : </span> {{ phrase }}
+            </p>
+            <p v-if="index === 6">
+              <span class="font-bold">Objet : </span> {{ phrase }}
+            </p>
           </li>
         </ul>
         <button
