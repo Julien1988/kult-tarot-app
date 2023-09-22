@@ -32,9 +32,9 @@ const takeCart = async () => {
   >
     <div
       v-if="!isClick"
-      class="min-h-screen flex flex-auto items-center flex-wrap justify-center"
+      class="min-h-screen flex items-center flex-wrap content-center justify-center"
     >
-      <div>
+      <div class="pt-2 pb-2">
         <button
           @click="takeCart"
           class="text-red-800 text-4xl hover:text-red-900"
@@ -43,7 +43,7 @@ const takeCart = async () => {
         </button>
       </div>
       <img
-        class="overflow-hidden"
+        class="overflow-hidden pt-2 pb-2"
         alt="image created by drV0dka"
         :src="'./img/Kult_image.png'"
       />
