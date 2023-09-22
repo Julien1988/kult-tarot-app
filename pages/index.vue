@@ -42,20 +42,24 @@ const takeCart = async () => {
       >
         Un instant, je termine un sacrifice...
       </div>
-
-      <div v-else class="pt-2 pb-2">
-        <button
-          @click="takeCart"
-          class="text-red-800 text-4xl hover:text-red-900"
-        >
-          Tirez moi les cartes
-        </button>
+      <div
+        v-else
+        class="min-h-screen flex items-center flex-wrap content-center justify-center"
+      >
+        <div class="pt-2 pb-2">
+          <button
+            @click="takeCart"
+            class="text-red-800 text-4xl hover:text-red-900"
+          >
+            Tirez moi les cartes
+          </button>
+        </div>
+        <img
+          class="overflow-hidden pt-2 pb-2"
+          alt="image created by drV0dka"
+          :src="'./img/Kult_image.png'"
+        />
       </div>
-      <img
-        class="overflow-hidden pt-2 pb-2"
-        alt="image created by drV0dka"
-        :src="'./img/Kult_image.png'"
-      />
     </div>
     <div
       class="p-12 min-h-screen flex flex-auto items-center flex-wrap justify-center text-white text-2xl"
