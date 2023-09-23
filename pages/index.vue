@@ -53,10 +53,15 @@ const takeCart = async () => {
   phrases.value = cartText.value[1].split(": ");
   const textToShow: array = [];
   phrases.value.forEach((e) => {
-    e.split(".").pop();
-    textToShow.push(e);
+    let cleanTest = e.split(".");
+    cleanTest.pop();
+    cleanTest = cleanTest.toString();
+
+    textToShow.push(cleanTest);
   });
+
   textToShowFront.value = textToShow;
+  //console.log(textToShow);
 };
 </script>
 
