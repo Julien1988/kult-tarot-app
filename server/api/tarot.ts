@@ -31,11 +31,11 @@ export default defineEventHandler((event) => {
         "renaissance et aux Oubliettes de l’Oubli de\n" +
         "Métropolis",
       "Individu: un hypnotiseur. Un citoyen\n" +
-        "âgé. Un comptable négligent. La victime d’un traumatisme. Une baby-sitter\n" +
+        "âgé. Un comptable négligent. La victime d’un traumatisme. Une babysitter\n" +
         "étourdie. Un prêtre distrait. Un mauvais\n" +
         "chirurgien.\n" +
         "Lieu: les Oubliettes de l’Oubli. Un\n" +
-        "coffre-fort verrouillé. La demeure de\n" +
+        "coffrefort verrouillé. La demeure de\n" +
         "personnes âgées. Une ville fantôme.\n" +
         "Une station essence perdue au milieu\n" +
         "de nulle part.\n" +
@@ -159,7 +159,7 @@ export default defineEventHandler((event) => {
         "fossoyeur maître de lui en proie à des\n" +
         "envies sexuelles, mais déviantes, quasi\n" +
         "irrépressibles. Une fille lobotomisée\n" +
-        "gardée dans le sous-sol d’un bordel.\n" +
+        "gardée dans le soussol d’un bordel.\n" +
         "Lieu: une morgue en acier inoxydable\n" +
         "où l’odeur d’antiseptique masque à\n" +
         "peine la puanteur de la pourriture. Des\n" +
@@ -399,7 +399,7 @@ export default defineEventHandler((event) => {
         "passion et qui agit comme un seul homme.",
       "Individu\n" +
         ": un disciple dévoué. Un dres\n" +
-        "-\n" +
+        "\n" +
         "seur. Un pêcheur cachant un sombre\n" +
         "secret. Un supporter de foot troublé.\n" +
         "Lieu\n" +
@@ -414,10 +414,10 @@ export default defineEventHandler((event) => {
         ": se laisser porter. Un sacrifice\n" +
         "pour le bien du groupe. Un châtiment\n" +
         "collectif. Une assemblée. Un embou\n" +
-        "-\n" +
+        "\n" +
         "teillage pendant l’heure de pointe. Un\n" +
         "groupe qui partage le même état d’es\n" +
-        "-\n" +
+        "\n" +
         "prit. Une foule en colère sur les réseaux\n" +
         "sociaux. Des usagers de transports en\n" +
         "commun.\n" +
@@ -432,7 +432,7 @@ export default defineEventHandler((event) => {
     ],
     [". LA PROIE"]: [
       "La Proie représente la victime de la pas\n" +
-        "-\n" +
+        "\n" +
         "sion, la cible d’un ennemi ou la victime\n" +
         "potentielle d’une situation dangereuse.",
       "un harceleur sans pitié. Un père de\n" +
@@ -474,12 +474,12 @@ export default defineEventHandler((event) => {
         "épouse dévouée.\n" +
         "Lieu\n" +
         ": un motel à proximité d’une auto\n" +
-        "-\n" +
+        "\n" +
         "route. Une cabane dans les bois. Une\n" +
         "église de campagne. Un splendide parc\n" +
         "en plein cœur de la ville. Une boutique\n" +
         "de robes de mariée. Un site de ren\n" +
-        "-\n" +
+        "\n" +
         "contre. Un cadavre enterré dans les bois.\n" +
         "Organisation\n" +
         ": une agence matrimoniale.\n" +
@@ -496,7 +496,7 @@ export default defineEventHandler((event) => {
         ": une alliance en or toute simple.\n" +
         "Un contrat de mariage. Un smartphone\n" +
         "rempli de messages et de photos ro\n" +
-        "-\n" +
+        "\n" +
         "mantiques. Un gâteau de mariage. Une\n" +
         "robe de mariée. Un roman Harlequin\n" +
         "dans lequel on a surligné des passages.\n" +
@@ -635,19 +635,19 @@ export default defineEventHandler((event) => {
         ": Ktonor. Un sanctuaire caché. Une\n" +
         "chambre forte poussiéreuse. Une pièce\n" +
         "sécurisée. Un passage secret. Un che\n" +
-        "-\n" +
+        "\n" +
         "min inconnu dans la nature. Une voie\n" +
         "de contrebande. Un refuge.\n" +
         "Organisation\n" +
         ": une agence d’espion\n" +
-        "-\n" +
+        "\n" +
         "nage. Une communauté de sans-abri\n" +
         "secrète.\n" +
         "Situation\n" +
         ": une opération sous cou\n" +
-        "-\n" +
+        "\n" +
         "verture. Rester en dehors des pro\n" +
-        "-\n" +
+        "\n" +
         "blèmes. Des sous-entendus dans les\n" +
         "conversations.\n" +
         "Créature\n" +
@@ -656,7 +656,7 @@ export default defineEventHandler((event) => {
         "Objet\n" +
         ": la clef d’un refuge. La carte vers\n" +
         "un itinéraire secret. Un antique arte\n" +
-        "-\n" +
+        "\n" +
         "fact. Des secrets enfouis.",
     ],
     ["LE LABYRINTHE"]: [
@@ -666,7 +666,7 @@ export default defineEventHandler((event) => {
       "Individu\n" +
         ": un mathématicien qui\n" +
         "cherche la clef d’un problème impos\n" +
-        "-\n" +
+        "\n" +
         "sible à résoudre. Un patient en hôpital\n" +
         "psychiatrique, qui comprend certains\n" +
         "aspects de la Vérité. Un spéléologue.\n" +
@@ -699,24 +699,24 @@ export default defineEventHandler((event) => {
       "Le Carrefour relie deux voies distinctes, il\n" +
         "représente un choix qui doit être fait et\n" +
         "dont chaque option entraînera des consé\n" +
-        "-\n" +
+        "\n" +
         "quences bien différentes.",
       "Individu\n" +
         ": une femme qui fuit son\n" +
         "passé. Un politicien sous pression. Une\n" +
         "ado qui envisage d’avorter. Un conseil\n" +
-        "-\n" +
+        "\n" +
         "ler matrimonial amer.\n" +
         "Lieu\n" +
         ": un carrefour. Une bretelle de sor\n" +
-        "-\n" +
+        "\n" +
         "tie d’autoroute. Une gare. Des escaliers\n" +
         "qui conduisent au métro souterrain.\n" +
         "Organisation\n" +
         ": un centre de procréa\n" +
-        "-\n" +
+        "\n" +
         "tion médicalement assistée. Une com\n" +
-        "-\n" +
+        "\n" +
         "pagnie de paris.\n" +
         "Situation\n" +
         ": un choix important. Un\n" +
@@ -728,7 +728,7 @@ export default defineEventHandler((event) => {
         "de troc.\n" +
         "Objet\n" +
         ": une lettre contenant des infor\n" +
-        "-\n" +
+        "\n" +
         "mations pouvant changer une vie. Un\n" +
         "sac à dos. Une machine à sous.",
     ],
@@ -738,7 +738,7 @@ export default defineEventHandler((event) => {
       "Individu\n" +
         ": un agent de sécurité. Un\n" +
         "serrurier autodidacte. Un pirate infor\n" +
-        "-\n" +
+        "\n" +
         "matique déterminé. Un chef d’équipe\n" +
         "antipathique.\n" +
         "Lieu\n" +
@@ -748,14 +748,14 @@ export default defineEventHandler((event) => {
         "portail vers un autre monde.\n" +
         "Organisation\n" +
         ": une banque. Des doua\n" +
-        "-\n" +
+        "\n" +
         "niers. Un culte qui a juré de protéger\n" +
         "un secret.\n" +
         "Situation\n" +
         ": quelque chose qui doit être\n" +
         "ouvert. Quelque chose qui doit être\n" +
         "protégé. Quelqu’un qui garde de nom\n" +
-        "-\n" +
+        "\n" +
         "breux secrets. Des souvenirs oubliés.\n" +
         "Créature\n" +
         ": un gardien. Un Ouvreur de\n" +
@@ -889,7 +889,7 @@ export default defineEventHandler((event) => {
         ": un prêtre au grand cœur. Des\n" +
         "frères siamois. Un responsable de la\n" +
         "branche des acquisitions d’une entre\n" +
-        "-\n" +
+        "\n" +
         "prise. Le chef charismatique d’un culte.\n" +
         "Un couple marié qui agit à l’unisson.\n" +
         "Lieu\n" +
@@ -903,7 +903,7 @@ export default defineEventHandler((event) => {
         "dans le décor. Une minorité intégrée à\n" +
         "une société. Le mythe et la réalité ne\n" +
         "font plus qu’un. La fusion de deux idéo\n" +
-        "-\n" +
+        "\n" +
         "logies. Deux personnes se révèlent être\n" +
         "le même individu.\n" +
         "Créature\n" +
@@ -912,7 +912,7 @@ export default defineEventHandler((event) => {
         "Objet\n" +
         ": deux objets en plastique fondus\n" +
         "l’un dans l’autre. Une croix qui dissi\n" +
-        "-\n" +
+        "\n" +
         "mule une lame. Une fiole contenant le\n" +
         "sang de douze enfants.",
     ],
@@ -925,7 +925,7 @@ export default defineEventHandler((event) => {
         "mime travailleur. Un artiste adepte des\n" +
         "performances au seuil du surmenage.\n" +
         "Un parolier honnête. Un comportemen\n" +
-        "-\n" +
+        "\n" +
         "taliste cognitif qui pense bien faire.\n" +
         "Lieu\n" +
         ": un étang calme. Un carnaval. Un\n" +
@@ -933,11 +933,11 @@ export default defineEventHandler((event) => {
         "par la pluie. Un cimetière désolé.\n" +
         "Organisation\n" +
         ": un culte dédié à Malk\n" +
-        "-\n" +
+        "\n" +
         "uth. Une société de philosophes.\n" +
         "Situation\n" +
         ": un mirage. Une hallucina\n" +
-        "-\n" +
+        "\n" +
         "tion. Un éclair de vérité. Un écho du\n" +
         "passé. Une double identité.\n" +
         "Créature\n" +
@@ -949,7 +949,7 @@ export default defineEventHandler((event) => {
     ],
     ["LA RÉPÉTITION"]: [
       "La Répétition représente une boucle infi\n" +
-        "-\n" +
+        "\n" +
         "nie, un thème récurrent, un sentiment de\n" +
         "déjà-vu ou quelque chose auquel on ne\n" +
         "peut pas échapper",
@@ -959,7 +959,7 @@ export default defineEventHandler((event) => {
         "conférencier qui hiverne. Une personne\n" +
         "isolée accro à la télé. Un veilleur de\n" +
         "nuit. Un opérateur de machine à eutha\n" +
-        "-\n" +
+        "\n" +
         "nasie volontaire. Un mauvais comique\n" +
         "de stand-up avec seulement deux\n" +
         "bonnes blagues. Un somnambule.\n" +
@@ -974,14 +974,14 @@ export default defineEventHandler((event) => {
         "Organisation\n" +
         ": un groupe de réflexion\n" +
         "conservateur. Une entreprise pharma\n" +
-        "-\n" +
+        "\n" +
         "ceutique qui fournit des antidépres\n" +
-        "-\n" +
+        "\n" +
         "seurs à la classe moyenne.\n" +
         "Situation\n" +
         ": un groupe qui joue les\n" +
         "mêmes reprises soir après soir. Res\n" +
-        "-\n" +
+        "\n" +
         "sasser ses anciens mérites. Raconter\n" +
         "la même histoire encore et encore. Un\n" +
         "déjà-vu. Devoir recommencer la même\n" +
@@ -991,7 +991,7 @@ export default defineEventHandler((event) => {
         "spectre presque dénué de conscience.\n" +
         "Objet\n" +
         ": une roue de hamster. Un manus\n" +
-        "-\n" +
+        "\n" +
         "crit refusé. Une boîte à musique qui\n" +
         "joue une mélodie en boucle.",
     ],
@@ -1001,24 +1001,24 @@ export default defineEventHandler((event) => {
         "immuable.",
       "Individu\n" +
         ": un gourou calme et sédui\n" +
-        "-\n" +
+        "\n" +
         "sant. Une mère de famille qui a baissé\n" +
         "les bras et fume cigarette sur cigarette.\n" +
         "Un vieux hippie qui ne s’exprime que\n" +
         "par énigmes.\n" +
         "Lieu\n" +
         ": une petite ville endormie sem\n" +
-        "-\n" +
+        "\n" +
         "blant gelée dans le temps. Des maisons\n" +
         "de banlieue dans une impasse. Un jar\n" +
-        "-\n" +
+        "\n" +
         "din japonais. Une rivière au cours lent\n" +
         "dans une campagne bucolique. Une\n" +
         "ville fantôme. Un drive-in abandonné.\n" +
         "Organisation\n" +
         ": un centre de méditation.\n" +
         "Un centre de recherches qui cartogra\n" +
-        "-\n" +
+        "\n" +
         "phie les émotions humaines.\n" +
         "Situation\n" +
         ": un jour calme et tranquille.\n" +
@@ -1032,10 +1032,10 @@ export default defineEventHandler((event) => {
         ": des somnifères. Un CD de\n" +
         "musique calme et harmonieuse. Un\n" +
         "tableau représentant un paysage déser\n" +
-        "-\n" +
+        "\n" +
         "tique. Un livre présentant au lecteur les\n" +
         "12 étapes pour contrôler son agressi\n" +
-        "-\n" +
+        "\n" +
         "vité. Une flûte de pan.",
     ],
     ["L’ÉLYSÉE"]: [
@@ -1158,7 +1158,7 @@ export default defineEventHandler((event) => {
       "La Rébellion et la lutte contre l’ordre\n" + "établi.",
       "Individu\n" +
         ": un solitaire têtu. Un ado\n" +
-        "-\n" +
+        "\n" +
         "lescent rebelle. Un criminel. Un chef\n" +
         "politique charismatique. Un chef de la\n" +
         "mafia. Un néonazi violent. Un membre\n" +
@@ -1172,7 +1172,7 @@ export default defineEventHandler((event) => {
         "Organisation\n" +
         ": des guérilleros. Un\n" +
         "groupe de punk. Un groupe d’extré\n" +
-        "-\n" +
+        "\n" +
         "mistes. Un mouvement de défense des\n" +
         "animaux.\n" +
         "Situation\n" +
@@ -1202,7 +1202,7 @@ export default defineEventHandler((event) => {
         "expériences.\n" +
         "Lieu\n" +
         ": un hôpital psychiatrique. Une cel\n" +
-        "-\n" +
+        "\n" +
         "lule d’isolement. Une maison décrépite.\n" +
         "Un appartement dont le papier peint\n" +
         "est arraché.\n" +
@@ -1212,7 +1212,7 @@ export default defineEventHandler((event) => {
         "pour caravanes.\n" +
         "Situation\n" +
         ": la psychose. Une dépres\n" +
-        "-\n" +
+        "\n" +
         "sion sévère. La schizophrénie. Le TSPT.\n" +
         "L’anxiété. Des attaques de panique.\n" +
         "La névrose. La paranoïa. Une attitude\n" +
@@ -1234,7 +1234,7 @@ export default defineEventHandler((event) => {
     ],
     ["LES VISIONS"]: [
       "Les Visions représentent ce qui peut ame\n" +
-        "-\n" +
+        "\n" +
         "ner de la compréhension, mais aussi ce qui\n" +
         "peut écarter de la vérité.",
       "Individu\n" +
@@ -1242,7 +1242,7 @@ export default defineEventHandler((event) => {
         "prophète autoproclamé. Un architecte\n" +
         "inspiré. Un vidéaste excentrique. Le\n" +
         "PDG d’une entreprise de support infor\n" +
-        "-\n" +
+        "\n" +
         "matique à la croissance rapide. Un\n" +
         "patient dément.\n" +
         "Lieu\n" +
@@ -1255,7 +1255,7 @@ export default defineEventHandler((event) => {
         "rêves. Des pèlerins.\n" +
         "Situation\n" +
         ": des visions cauchemardes\n" +
-        "-\n" +
+        "\n" +
         "ques. Une perspicacité exceptionnelle.\n" +
         "Une prophétie. Des yeux exorbités. Des\n" +
         "rumeurs qui propagent la Vérité.\n" +
@@ -1271,17 +1271,17 @@ export default defineEventHandler((event) => {
       "Individu\n" +
         ": un philosophe amateur. Un\n" +
         "sorcier. Un technicien futé. Un bodmo\n" +
-        "-\n" +
+        "\n" +
         "deur dévoué à sa passion. Un scienti\n" +
-        "-\n" +
+        "\n" +
         "fique sur le point de faire une décou\n" +
-        "-\n" +
+        "\n" +
         "verte. Un sans-abri qui vit sous un pont.\n" +
         "Un étudiant. Un patron de bar ouvert\n" +
         "d’esprit.\n" +
         "Lieu\n" +
         ": une route vers l’inconnu. Un esca\n" +
-        "-\n" +
+        "\n" +
         "lier en colimaçon. Un laboratoire de\n" +
         "haute technologie. Une université.\n" +
         "Organisation\n" +
