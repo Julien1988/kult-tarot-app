@@ -13,6 +13,7 @@ const isTimeToDie = ref(false);
 const messageOfDeath = ref("");
 const notThisTime = ref(false);
 const textToShowFront = ref("");
+const acceptYourDeath = ref(false);
 
 const message = "Je viendrais vous chercher dans 7 jours...";
 const messageArray = message.split("");
@@ -21,11 +22,14 @@ let currentIndex = 0;
 
 const typeWriter = () => {
   if (currentIndex < messageArray.length) {
+    acceptYourDeath.value = false;
     finalMessage += messageArray[currentIndex];
     currentIndex++;
     messageOfDeath.value = finalMessage;
     const randmonNumberToDie: number = useUtils(200);
     setTimeout(typeWriter, randmonNumberToDie);
+  } else {
+    acceptYourDeath.value = true;
   }
   notThisTime.value = true;
 };
@@ -61,7 +65,6 @@ const takeCart = async () => {
   });
 
   textToShowFront.value = textToShow;
-  //console.log(textToShow);
 };
 </script>
 
@@ -156,6 +159,7 @@ const takeCart = async () => {
     </h2>
 
     <button
+      v-if="acceptYourDeath"
       class="text-red-800 text-3xl hover:text-red-900 p-10 animate-pulse text-center"
       @click="takeCart"
     >
