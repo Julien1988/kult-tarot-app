@@ -29,10 +29,10 @@
     <div class="p-4 text-white">
       <h2 class="text-2xl pb-4">Info sur le dévelopeur :</h2>
       <p>
-        Vous me connaissez peut être sur le pseudonyme de DrV0dka, je développe
-        de manière professionnel des sit internet ainsi que des applications web
-        comme celle-ci Vous pouvez vous rendre sur mon site pro à cette adresse
-        :
+        Vous me connaissez peut être sous le pseudonyme de DrV0dka, je développe
+        de manière professionnel des sites internet ainsi que des applications
+        web comme celle-ci Vous pouvez vous rendre sur mon site pro à cette
+        adresse :
         <NuxtLink class="text-red-800" to="https://jb-studio.be"
           >jb-studio.be</NuxtLink
         >
