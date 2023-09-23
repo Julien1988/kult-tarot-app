@@ -35,7 +35,6 @@ const typeWriter = () => {
 };
 
 const takeCart = async () => {
-  console.log(notThisTime.value);
   if (!data.value) {
     return;
   }
