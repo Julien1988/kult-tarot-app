@@ -37,6 +37,13 @@
           >jb-studio.be</NuxtLink
         >
       </p>
+      <p class="pt-12">
+        <NuxtLink
+          class="text-red-800"
+          to="https://github.com/Julien1988/kult-tarot-app"
+          >Se rendre sur le repo github</NuxtLink
+        >
+      </p>
     </div>
   </div>
 </template>

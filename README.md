@@ -1,3 +1,15 @@
+# Kult Tarot app
+
+ Il s'agit d'une application développée à partir de contenu mis gratuitement à disposition par l'éditeur sur son site
+  internet.
+
+   Elle a été développée pour le fun et pour aider la communauté lors de ses parties de Kult.
+   Vous me connaissez peut être sous le pseudonyme de DrV0dka, je développe
+de manière professionnel des sites internet ainsi que des applications
+web comme celle-ci Vous pouvez vous rendre sur mon site pro à cette
+adresse : https://jb-studio.be
+
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
